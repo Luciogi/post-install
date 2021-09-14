@@ -1,7 +1,9 @@
 # post-install
 
 ## Adding repositories:
-`sudo pacman -Syu artix-archlinux-support`
+```
+sudo pacman -Syu artix-archlinux-support
+```
 
 ``` bash
 echo \
