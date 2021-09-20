@@ -53,11 +53,10 @@ Server = http://omniverse.artixlinux.org/$arch"\
     `rc-service hwclock restart`
 *ref:https://wiki.gentoo.org/wiki/System_time#OpenRC_2*
 
-## Printer drivers
+## Printer and scanner
 
 ```bash
-trizen -S cups epson-inkjet-printer-201401w
+trizen -S cups-openrc epson-inkjet-printer-201401w imagescan epsonscan2
 ```
 
 Enable `cupsd` service.
-
