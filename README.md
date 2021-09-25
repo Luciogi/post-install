@@ -60,3 +60,9 @@ trizen -S cups-openrc epson-inkjet-printer-201401w imagescan epsonscan2
 ```
 
 Enable `cupsd` service.
+
+## Remove sudo 10 minutes user lock
+In file  `/etc/security/faillock.conf` set `deny = 0`
+
+[https://bbs.archlinux.org/viewtopic.php?pid=1922695#p1922695]
+
